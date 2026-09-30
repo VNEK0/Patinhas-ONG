@@ -21,6 +21,12 @@ O site é dividido em três páginas principais:
 ### Outros arquivos
 
 - `style.css` — Estilos visuais e responsividade do site.
+- `script.js` — Ponto de entrada do JavaScript.
+- `router.js` — Navegação e organização das páginas da aplicação.
+- `storage.js` — Armazenamento e recuperação dos dados do formulário.
+- `formulario.js` — Processamento e validação do formulário.
+- `menu.js` — Controle do menu responsivo.
+- `bibliotecas.js` — Configuração das bibliotecas AOS e Day.js.
 - `imagens/` — Imagens utilizadas na seção de adoção.
 
 ## 🐶 Adoção
@@ -56,12 +62,28 @@ O cadastro utiliza recursos nativos do HTML5 para validação dos dados, incluin
 - Formato de telefone
 - Formato de CEP
 
+Os dados preenchidos podem ser armazenados e recuperados utilizando `localStorage`.
+
 ## 🛠️ Tecnologias utilizadas
 
 - HTML5
 - CSS3
+- JavaScript
+- ES6 Modules
+- AOS
+- Day.js
+- LocalStorage
 - Visual Studio Code
+- Live Server
+
+## ▶️ Como executar
+
+1. Abra o projeto no Visual Studio Code.
+2. Instale a extensão Live Server.
+3. Abra o arquivo `html/index.html`.
+4. Clique com o botão direito no arquivo e selecione **Open with Live Server**.
+5. A aplicação será aberta no navegador.
 
 ## 📚 Finalidade
 
-Projeto acadêmico fictício desenvolvido para fins educacionais, com foco no aprendizado de desenvolvimento web, estrutura semântica HTML5, formulários, acessibilidade e design responsivo.
+Projeto acadêmico fictício desenvolvido para fins educacionais, com foco no aprendizado de desenvolvimento web, estrutura semântica HTML5, formulários, acessibilidade, design responsivo e organização modular do código.
